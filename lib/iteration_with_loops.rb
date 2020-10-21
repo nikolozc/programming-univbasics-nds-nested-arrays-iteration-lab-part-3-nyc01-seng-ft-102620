@@ -6,7 +6,7 @@ def join_nested_strings(src)
   outer = 0 
   inner = 0 
   while(outer < src.size) do
-    while(inner < src[0].size) do
+    while(inner < src[outer].size) do
       if(src[outer][inner].is_a? String)
         retVal+=src[outer][inner]+" "
       end 
