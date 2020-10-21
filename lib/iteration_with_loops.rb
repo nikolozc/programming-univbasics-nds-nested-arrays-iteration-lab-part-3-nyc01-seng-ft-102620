@@ -15,4 +15,5 @@ def join_nested_strings(src)
     outer+=1 
     inner = 0 
   end 
+  return retVal
 end
